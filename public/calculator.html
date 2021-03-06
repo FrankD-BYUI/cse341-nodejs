@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postage Calculator</title>
+</head>
+<form action="calculate" method="get">
+  <label>
+    <input type="number" name="weight" id="weight" value="1"> weight (oz)
+  </label>
+  <label>
+    <select name="type" id="type">
+      <option value="stamped">Letters (Stamped)</option>
+      <option value="metered">Letters (Metered)</option>
+      <option value="envelope">Large Envelopes (Flats)</option>
+      <option value="package">First-Class Package Service - Retail</option>
+    </select>
+  </label>
+  <input type="submit" value="Calculate">
+</form>
+
+<body>
+
+</body>
+
+</html>
